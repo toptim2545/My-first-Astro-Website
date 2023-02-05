@@ -9,7 +9,7 @@
         title="Trying Svelte for the Third Time"
         width="560"
         height="315"
-        src="https://www.youtube-nocookie.com/embed/qTrd_8zb79g"
+        src="https://www.youtube-nocookie.com/embed/ixjo9QWLhas"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

@@ -54,15 +54,15 @@
 
   .button {
     background: hsl(
-      var(--colour-secondary-hue) var(--colour-secondary-saturation)
-        var(--colour-secondary-luminance)
+      var(--colour-secondary-luminance) var(--colour-secondary-saturation)
+        var(--colour-secondary-hue)
     );
   }
 
   .button-alt {
     background: hsl(
-      var(--colour-brand-hue) var(--colour-brand-saturation)
-        var(--colour-brand-luminance)
+      var(--colour-brand-hue) var(--colour-brand-luminance)
+        var(--colour-brand-saturation)
     );
   }
 </style>
