@@ -2,6 +2,7 @@
 import "~styles/styles.css";
 import ReactVideo from "~components/Video.jsx";
 import SvelteVideo from "~components/Video.svelte";
+import SvelteVideo3 from "~components/3thVideo.svelte";
 import { Content as MarkdownVideoContent } from '~content/video.md';
 ---
 
@@ -22,9 +23,7 @@ import { Content as MarkdownVideoContent } from '~content/video.md';
       </p>
       <ReactVideo client:load />
       <SvelteVideo client:load />
-      <section class="mdx-container">
-				<MarkdownVideoContent />
-      </section>
+      <SvelteVideo3 client:load />
     </main>
   </body>
 </html>
