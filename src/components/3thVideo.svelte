@@ -28,8 +28,8 @@
     display: flex;
     flex-direction: column;
     background: hsl(
-      var(--colour-brand-hue) var(--colour-brand-saturation)
-        var(--colour-brand-luminance)
+      var(--colour-light-text-hue) var(--colour-light-text-saturation)
+        var(--colour-light-text-luminance)
     );
     align-items: center;
     width: 100%;
@@ -42,8 +42,8 @@
 
   .container-alt {
     background: hsl(
-      var(--colour-secondary-hue) var(--colour-secondary-saturation)
-        var(--colour-secondary-luminance)
+      var(--colour-dark-text-hue) var(--colour-dark-text-saturation)
+        var(--colour-dark-text-luminance)
     );
 
     color: hsl(
@@ -54,15 +54,15 @@
 
   .button {
     background: hsl(
-      var(--colour-secondary-hue) var(--colour-secondary-saturation)
-        var(--colour-secondary-luminance)
+      var(--colour-dark-text-hue) var(--colour-dark-text-saturation)
+        var(--colour-dark-text-luminance)
     );
   }
 
   .button-alt {
     background: hsl(
-      var(--colour-brand-hue) var(--colour-brand-saturation)
-        var(--colour-brand-luminance)
+      var(--colour-light-text-hue) var(--colour-light-text-saturation)
+        var(--colour-light-text-luminance)
     );
   }
 </style>

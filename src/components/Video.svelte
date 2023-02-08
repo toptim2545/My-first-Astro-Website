@@ -28,8 +28,8 @@
       display: flex;
       flex-direction: column;
       background: hsl(
-        var(--colour-brand-hue) var(--colour-brand-saturation)
-          var(--colour-brand-luminance)
+        var(--colour-secondary-hue) var(--colour-secondary-saturation)
+          var(--colour-secondary-luminance)
       );
       align-items: center;
       width: 100%;
@@ -42,8 +42,8 @@
   
     .container-alt {
       background: hsl(
-        var(--colour-secondary-hue) var(--colour-secondary-saturation)
-          var(--colour-secondary-luminance)
+        var(--colour-brand-hue) var(--colour-brand-saturation)
+          var(--colour-brand-luminance)
       );
   
       color: hsl(
@@ -54,15 +54,15 @@
   
     .button {
       background: hsl(
-        var(--colour-secondary-hue) var(--colour-secondary-saturation)
-          var(--colour-secondary-luminance)
+        var(--colour-brand-hue) var(--colour-brand-saturation)
+          var(--colour-brand-luminance)
       );
     }
   
     .button-alt {
       background: hsl(
-        var(--colour-brand-hue) var(--colour-brand-saturation)
-          var(--colour-brand-luminance)
+        var(--colour-secondary-hue) var(--colour-secondary-saturation)
+          var(--colour-secondary-luminance)
       );
     }
   </style>
