@@ -1,6 +1,6 @@
 ---
 import "~styles/styles.css";
-import ReactVideo from "~components/Video.jsx";
+import SvelteVideo2 from "~components/2ndVideo.svelte";
 import SvelteVideo from "~components/Video.svelte";
 import SvelteVideo3 from "~components/3thVideo.svelte";
 import { Content as MarkdownVideoContent } from '~content/video.md';
@@ -21,8 +21,8 @@ import { Content as MarkdownVideoContent } from '~content/video.md';
         
         
       </p>
-      <ReactVideo client:load />
       <SvelteVideo client:load />
+      <SvelteVideo2 client:load />
       <SvelteVideo3 client:load />
     </main>
   </body>
