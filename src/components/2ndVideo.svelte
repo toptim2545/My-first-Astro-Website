@@ -3,10 +3,10 @@
   </script>
   
   <section class={`container${altColours ? " container-alt" : ""}`}>
-    <h2>Новый снапшот майнкрафта</h2>
+    <h2>Актуальные новости киноиндустрии</h2>
     <div class="video-container">
       <iframe
-        title="Новый снапшот майнкрафта"
+        title="Актуальные новости киноиндустрии"
         width="560"
         height="315"
         src="https://www.youtube-nocookie.com/embed/SbMBZB-R-8E"
@@ -65,4 +65,4 @@
           var(--colour-brand-luminance)
       );
     }
-    </style>
+  </style>

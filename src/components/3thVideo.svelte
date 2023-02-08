@@ -28,41 +28,41 @@
     display: flex;
     flex-direction: column;
     background: hsl(
-      var(--colour-brand-saturation) var(--colour-brand-luminance)
-        var(--colour-brand-hue)
+      var(--colour-brand-hue) var(--colour-brand-saturation)
+        var(--colour-brand-luminance)
     );
     align-items: center;
     width: 100%;
     padding: var(--spacing-8) var(--spacing-0);
     color: hsl(
-      var(--colour-dark-text-saturation) var(--colour-dark-text-luminance)
-        var(--colour-dark-text-hue)
+      var(--colour-dark-text-hue) var(--colour-dark-text-saturation)
+        var(--colour-dark-text-luminance)
     );
   }
 
   .container-alt {
     background: hsl(
-      var(--colour-secondary-saturation) var(--colour-secondary-luminance)
-        var(--colour-secondary-hue)
+      var(--colour-secondary-hue) var(--colour-secondary-saturation)
+        var(--colour-secondary-luminance)
     );
 
     color: hsl(
-      var(--colour-light-text-saturation) var(--colour-light-text-luminance)
-        var(--colour-light-text-hue)
+      var(--colour-light-text-hue) var(--colour-light-text-saturation)
+        var(--colour-light-text-luminance)
     );
   }
 
   .button {
     background: hsl(
-      var(--colour-secondary-saturation) var(--colour-secondary-luminance)
-        var(--colour-secondary-hue)
+      var(--colour-secondary-hue) var(--colour-secondary-saturation)
+        var(--colour-secondary-luminance)
     );
   }
 
   .button-alt {
     background: hsl(
-      var(--colour-brand-saturation) var(--colour-brand-luminance)
-        var(--colour-brand-hue)
+      var(--colour-brand-hue) var(--colour-brand-saturation)
+        var(--colour-brand-luminance)
     );
   }
 </style>
