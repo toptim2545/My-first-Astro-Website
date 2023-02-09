@@ -3,13 +3,13 @@
   </script>
   
   <section class={`container${altColours ? " container-alt" : ""}`}>
-    <h2>Актуальные новости игровой индустрии</h2>
+    <h2>Трейлер God of War Ragnarök</h2>
     <div class="video-container">
       <iframe
-        title="Trying Svelte for the Third Time"
+        title="Трейлер God of War Ragnarök"
         width="560"
         height="315"
-        src="https://www.youtube-nocookie.com/embed/ixjo9QWLhas"
+        src="https://www.youtube-nocookie.com/embed/EE-4GvjKcfs"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -28,8 +28,8 @@
       display: flex;
       flex-direction: column;
       background: hsl(
-        var(--colour-secondary-hue) var(--colour-secondary-saturation)
-          var(--colour-secondary-luminance)
+        var(--colour-alternative-hue) var(--colour-alternative-saturation)
+          var(--colour-alternative-luminance)
       );
       align-items: center;
       width: 100%;
@@ -47,8 +47,8 @@
       );
   
       color: hsl(
-        var(--colour-light-text-hue) var(--colour-light-text-saturation)
-          var(--colour-light-text-luminance)
+        var(--colour-dark-text-hue) var(--colour-dark-text-saturation)
+          var(--colour-dark-text-luminance)
       );
     }
   
@@ -61,8 +61,9 @@
   
     .button-alt {
       background: hsl(
-        var(--colour-secondary-hue) var(--colour-secondary-saturation)
-          var(--colour-secondary-luminance)
+        var(--colour-alternative-hue) var(--colour-alternative-saturation)
+          var(--colour-alternative-luminance)
       );
     }
   </style>
+  

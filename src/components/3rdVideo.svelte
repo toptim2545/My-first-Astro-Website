@@ -3,13 +3,13 @@
 </script>
 
 <section class={`container${altColours ? " container-alt" : ""}`}>
-  <h2>Новый снапшот майнкрафта</h2>
+  <h2>Трейлер God of War 3</h2>
   <div class="video-container">
     <iframe
-      title="Новый снапшот майнкрафта"
+      title="Трейлер God of War 3"
       width="560"
       height="315"
-      src="https://www.youtube-nocookie.com/embed/lOGUB8WrQLY"
+      src="https://www.youtube-nocookie.com/embed/qKogMfIAAkY"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen

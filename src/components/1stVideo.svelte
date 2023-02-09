@@ -3,13 +3,13 @@
   </script>
   
   <section class={`container${altColours ? " container-alt" : ""}`}>
-    <h2>Трейлер God of War 2</h2>
+    <h2>Трейлер God of War 2005</h2>
     <div class="video-container">
       <iframe
-        title="Трейлер God of War 2"
+        title="Трейлер God of War 2005"
         width="560"
         height="315"
-        src="https://www.youtube-nocookie.com/embed/GjYbK_-w9pM"
+        src="https://www.youtube-nocookie.com/embed/pJyFlzarq-U"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -28,8 +28,8 @@
       display: flex;
       flex-direction: column;
       background: hsl(
-        var(--colour-brand-hue) var(--colour-brand-saturation)
-          var(--colour-brand-luminance)
+        var(--colour-secondary-hue) var(--colour-secondary-saturation)
+          var(--colour-secondary-luminance)
       );
       align-items: center;
       width: 100%;
@@ -42,27 +42,27 @@
   
     .container-alt {
       background: hsl(
-        var(--colour-light-text-hue) var(--colour-light-text-saturation)
-          var(--colour-light-text-luminance)
+        var(--colour-brand-hue) var(--colour-brand-saturation)
+          var(--colour-brand-luminance)
       );
   
       color: hsl(
-        var(--colour-brand-hue) var(--colour-brand-saturation)
-          var(--colour-brand-luminance)
+        var(--colour-light-text-hue) var(--colour-light-text-saturation)
+          var(--colour-light-text-luminance)
       );
     }
   
     .button {
       background: hsl(
-        var(--colour-light-text-hue) var(--colour-light-text-saturation)
-          var(--colour-light-text-luminance)
+        var(--colour-brand-hue) var(--colour-brand-saturation)
+          var(--colour-brand-luminance)
       );
     }
   
     .button-alt {
       background: hsl(
-        var(--colour-brand-hue) var(--colour-brand-saturation)
-          var(--colour-brand-luminance)
+        var(--colour-secondary-hue) var(--colour-secondary-saturation)
+          var(--colour-secondary-luminance)
       );
     }
   </style>

@@ -1,9 +1,10 @@
 ---
 import "~styles/styles.css";
+import SvelteVideo1 from "~components/1stVideo.svelte";
 import SvelteVideo2 from "~components/2ndVideo.svelte";
-import SvelteVideo from "~components/Video.svelte";
-import SvelteVideo3 from "~components/3thVideo.svelte";
-import { Content as MarkdownVideoContent } from '~content/video.md';
+import SvelteVideo3 from "~components/3rdVideo.svelte";
+import SvelteVideo4 from "~components/4thVideo.svelte";
+import SvelteVideo5 from "~components/5thVideo.svelte";
 ---
 
 <html lang="en-GB">
@@ -16,14 +17,16 @@ import { Content as MarkdownVideoContent } from '~content/video.md';
   </head>
   <body>
     <main class="container">
-      <h1>Что-то новое</h1>
+      <h1>Тизер-Трейлеры разных частей God of War</h1>
       <p>
         
         
       </p>
-      <SvelteVideo client:load />
+      <SvelteVideo1 client:load />
       <SvelteVideo2 client:load />
       <SvelteVideo3 client:load />
+      <SvelteVideo4 client:load />
+      <SvelteVideo5 client:load />
     </main>
   </body>
 </html>
