@@ -1,27 +1,9 @@
 <script>
+  import Video from "./Video.svelte";
   let altColours = false;
 </script>
 
-<section class={`container${altColours ? " container-alt" : ""}`}>
-  <h2>Трейлер God of War 3</h2>
-  <div class="video-container">
-    <iframe
-      title="Трейлер God of War 3"
-      width="560"
-      height="315"
-      src="https://www.youtube-nocookie.com/embed/qKogMfIAAkY"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    />
-  </div>
-  <button
-    class={`button${altColours ? " button-alt" : ""}`}
-    on:click={() => {
-      altColours = !altColours;
-    }}><span class="screen-reader-text">Toggle colours</span></button
-  >
-</section>
+<Video {altColours} hash={"qKogMfIAAkY"} title={"Трейлер God of War 3"} />
 
 <style>
   .container {
