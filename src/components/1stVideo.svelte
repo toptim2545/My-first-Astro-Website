@@ -6,7 +6,7 @@
 <Video {altColours} hash={"pJyFlzarq-U"} title={"Трейлер God of War 2005"} />
 
 <style>
-  .container {
+  /* .container {
     display: flex;
     flex-direction: column;
     background: hsl(
@@ -20,7 +20,7 @@
       var(--colour-dark-text-hue) var(--colour-dark-text-saturation)
         var(--colour-dark-text-luminance)
     );
-  }
+  } */
 
   .container-alt {
     background: hsl(
