@@ -25,9 +25,35 @@
   --colour-light-text-saturation: 66%;
   --colour-light-text-luminance: 95%;
 
+  /* based color */
   --colour-dark-hue: 206;
   --colour-dark-saturation: 46%;
   --colour-dark-luminance: 37%;
+
+  /* just blue */
+  --colour-bleak-hue: 176;
+  --colour-bleak-saturation: 68%;
+  --colour-bleak-luminance: 45%;
+
+  /* nice purple */
+  --colour-purple-hue: 202;
+  --colour-purple-saturation: 86%;
+  --colour-purple-luminance: 20%;
+
+  /* pink */
+  --colour-pink-hue: 340;
+  --colour-pink-saturation: 81%;
+  --colour-pink-luminance: 24%;
+
+  /* grey */
+  --colour-grey-hue: 0;
+  --colour-grey-saturation: 0%;
+  --colour-grey-luminance: 28%;
+
+  /* saturated blue */
+  --colour-saturated-blue-hue: 246;
+  --colour-saturated-blue-saturation: 100%;
+  --colour-saturated-blue-luminance: 50%;
 
   /* spacing */
   --spacing-px: 1px;
