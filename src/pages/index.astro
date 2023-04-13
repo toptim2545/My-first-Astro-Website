@@ -1,10 +1,7 @@
 ---
 import "~styles/styles.css";
-import SvelteVideo1 from "~components/1stVideo.svelte";
-import SvelteVideo2 from "~components/2ndVideo.svelte";
-import SvelteVideo3 from "~components/3dVideo.svelte";
-import SvelteVideo4 from "~components/4thVideo.svelte";
-import SvelteVideo5 from "~components/5thVideo.svelte";
+import { videoData } from "~components/videoData";
+import VideoTemplate from "~components/VideoTemplate.svelte";
 ---
 
 <html lang="en-GB">
@@ -12,21 +9,22 @@ import SvelteVideo5 from "~components/5thVideo.svelte";
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width" />
-
     <title>astro2545</title>
   </head>
   <body>
     <main class="container">
       <h1>Тизер-Трейлеры разных частей God of War</h1>
-      <p>
-        
-        
-      </p>
-      <SvelteVideo1 client:load />
-      <SvelteVideo2 client:load />
-      <SvelteVideo3 client:load />
-      <SvelteVideo4 client:load />
-      <SvelteVideo5 client:load />
+      <p></p>
+      {videoData.map(videoParams => 
+        <VideoTemplate 
+          altColors={videoParams.altColours} 
+          hash={videoParams.hash} 
+          title={videoParams.title} 
+          front={videoParams.front} 
+          back={videoParams.back} 
+          client:load 
+        />)
+      }
     </main>
   </body>
 </html>
